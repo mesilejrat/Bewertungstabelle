@@ -46,7 +46,8 @@ public class TabellenGenerator {
 
 
         for (Lieferant lieferant : alleLieferanten) {
-            if(!lieferant.getStatus().equalsIgnoreCase("zugelassen") && !lieferant.getStatus().equalsIgnoreCase("archivierte")){
+            if(!lieferant.getStatus().equals("zugelassen")
+                    && !lieferant.getStatus().equals("archiviert")){
                 continue;
             }
 

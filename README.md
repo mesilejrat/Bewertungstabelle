@@ -2,9 +2,12 @@
 1. Only approved and archived suppliers
 I added to  existing code this :
 ```
-if (!lieferant.getStatus().equalsIgnoreCase("zugelassen") && !lieferant.getStatus().equalsIgnoreCase("archiviert")) {
-    continue;
-}
+for (Lieferant lieferant : alleLieferanten) {
+            if(!lieferant.getStatus().equals("zugelassen")
+                    && !lieferant.getStatus().equals("archiviert")){
+                continue;
+            }
+            ......
 ```
 2. Take into account the evaluation categories 4 + 5 as well
 There already is a function for the overall calculation, calcGesamtBewertung() so I would add the categories 4 and 5 to it:
@@ -100,13 +103,14 @@ csvFileOutputTabelle.println();
 ```
 The output file after runnign the application:
 ```
-Output File after Changes
 Buerobedarf Test AG;Musterholz GmbH;Metalltester GmbH;Kunst & Stoff AG;Klein Holz AG;Holzvertrieb AG;
 LieferantenBezeichnung; Warengruppen ; LfNR; Bew Kat 1; Bew Kat 2; Bew Kat 3;  Bew Kat 4; Bew Kat 5; Gesamtbewertung
 Buerobedarf Test AG; Bürobedarf; 01; 10; 20; 30; 5; 30; gut
 Musterholz GmbH; Holz; 02; 20; 20; 30; 20; 30; sehr gut
 Metalltester GmbH; Metall; 03; 0; 20; 30; 15; 20; OK
 Kunst & Stoff AG; Kunststoff; 04; 0; 5; 30; 11; 20; schlecht
+Klein Holz AG; Holz; 05; 20; 20; 30; 15; 12; sehr gut
 Holzvertrieb AG; Holz; 09; 0; 20; 30; 8; 7; OK
+
 
 ```
