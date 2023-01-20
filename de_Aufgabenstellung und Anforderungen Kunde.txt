@@ -1,0 +1,27 @@
+Eine bestehende Funktion soll erweitert werden.
+Dazu gibt es eine kurze Beschreibung der Änderungen durch einen Kunden (siehe unten).
+
+Die bestehende Funktion setzt sich auf den Input-Dateien (LieferantenDaten.csv und Warengruppen.csv) und dem Code (IntelliJ-Projekt) zusammen.
+Als Ergebnis entsteht die Datei Output.csv.
+
+Aufgabe ist es aus den Anforderungen des Kunden Anforderungsbeschreibungen zu erstellen (neue .txt-Datei) und im Anschluss die Punkte in der Lösung umzusetzen.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Anforderung/ E-Mail des Kunden:
+
+Hallo liebes HCM-Team,
+
+bei unserem Export der Lieferantenbewertungen sollen folgende Änderungen vorgenommen werden:
+
+1. Nur zugelassene und archivierte Lieferanten
+2. Bitte die Bewertungskategorien 4 + 5 mitberücksichtigen
+3. Warengruppen der Lieferanten in Klarnamen hinzufügen
+4. Ordnen Sie bitte die Lieferanten in der ersten Zeile nebeneinander an 
+
+Für Fragen stehe ich gern zur Verfügung.
+
+Mit freundlichen Grüßen
+Max Musterkunde
+
+Musterkunden AG

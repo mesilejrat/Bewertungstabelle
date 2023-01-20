@@ -1,0 +1,35 @@
+An existing function is to be extended.
+For this purpose, there is a short description of the changes by a project manager (see below).
+
+The existing function is based on the input files (SupplierData.csv and ProductGroups.csv) and the code (IntelliJ project).
+However, you can use a development environment of your choice.
+The result is the file Output.csv. 
+(...\bewerberaufgabetabelle-master\Bewertungstabelle\resources --> German terms)
+
+The task is to create requirement descriptions from the requirements (new .txt file) and then implement the points in the solution.
+
+
+Please note that the variables are German terms. You can translate them for your own understanding !!!
+This is close to reality, but unfortunately somewhat cumbersome.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scenario:
+Request/ e-mail from the HCM Project Manager:
+
+Hello dear Candidate,
+
+We had a requirement meeting with the client.
+The following changes are to be made to our export of supplier ratings:
+
+1. only approved and archived suppliers (German Term: zugelassene und archivierte Lieferanten)
+2. please take into account the evaluation categories 4 + 5 as well (German Term:  Bew Kat 4 &  Bew Kat 5)
+3. add commodity groups of the suppliers in plain names
+4. please arrange the suppliers in the first line next to each other 
+
+Please create a detailed requirements list and implement the changes in the code. If new requirements arise, please also add them to the list.
+
+Please do not hesitate to contact us if you have any questions or if requirements are unclear and 
+we have to consult with the customer again. (In this case, the project managers are Mr Kübler or Mr Schmid).
+
+With kind regards
+HCM Project Manager
